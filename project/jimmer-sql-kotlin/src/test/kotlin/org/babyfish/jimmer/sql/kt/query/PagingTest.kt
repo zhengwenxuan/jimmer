@@ -216,7 +216,7 @@ class PagingTest : AbstractQueryTest() {
                 """select tb_1_.ID, tb_1_.NAME 
                     |from BOOK tb_1_ 
                     |order by tb_1_.NAME asc, tb_1_.EDITION desc 
-                    |limit ?""".trimMargin()
+                    |limit ? offset ?""".trimMargin()
             )
         }
     }
