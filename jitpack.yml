@@ -1,4 +1,4 @@
 jdk:
   - openjdk17
 install:
-  - cd project && chmod +x gradlew && ./gradlew publishToMavenLocal -x test
+  - cd project && chmod +x gradlew && ./gradlew publishToMavenLocal -x test -x signMavenPublication
