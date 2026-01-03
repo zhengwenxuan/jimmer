@@ -1,0 +1,4 @@
+build:
+  path: project
+install:
+  - ./gradlew :jimmer-core:publishToMavenLocal :jimmer-sql:publishToMavenLocal :jimmer-sql-kotlin:publishToMavenLocal :jimmer-spring-boot-starter:publishToMavenLocal :jimmer-ksp:publishToMavenLocal :jimmer-dto-compiler:publishToMavenLocal :jimmer-apt:publishToMavenLocal -x test
