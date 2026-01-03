@@ -14,7 +14,7 @@ mavenPublishing {
 
     publishToMavenCentral(automaticRelease = true)
 
-    signAllPublications()
+    // signAllPublications()
 }
 
 mavenPublishing {
